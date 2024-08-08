@@ -1,18 +1,5 @@
 # Diabetes - Machine Learning Prediction
-
-The objective of the dataset:
-This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
-
-The Pima Indian Diabetes data set consists of:
-- Pregnancies: Number of times pregnant.
-- Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-- BloodPressure: Diastolic blood pressure (mm Hg)
-- SkinThickness: Triceps skin fold thickness (mm)
-- Insulin: 2-Hour serum insulin (mu U/ml)
-- BMI: Body mass index (weight in kg/(height in m)^2)
-- DiabetesPedigreeFunction: Diabetes pedigree function
-- Age: Age (years)
-- Outcome: Class variable (0 or 1) 268 of 768 are 1, the others are 0
+Develop and deploy a machine learning model to predict whether an individual is diabetic based on various health metrics. Demonstrate the full lifecycle of a machine learning model, from data preprocessing and model training to deployment and real-time prediction.
 
 ## table of Contents
 - [Project Overview](#project-overview)
@@ -28,8 +15,26 @@ The Pima Indian Diabetes data set consists of:
   - [Saving the trained model](#saving-the-trained-model)
 
 ## Project Overview
+This project develops a machine learning system to predict diabetes status based on health metrics. The goals and objectives are:
+
+**Goals:**
+- **Accurate Prediction:** Create a model that accurately predicts whether an individual is diabetic or non-diabetic based on provided health metrics.
+- **Model Deployment:** Develop a system that allows for easy saving, loading, and reuse of the trained model and preprocessing scaler.
+
 
 ## Dataset
+This [dataset](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset) is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
+Information about dataset attributes:
+- Pregnancies: To express the Number of pregnancies
+- Glucose: To express the Glucose level in blood
+- BloodPressure: To express the Blood pressure measurement
+- SkinThickness: To express the thickness of the skin
+- Insulin: To express the Insulin level in blood
+- BMI: To express the Body mass index
+- DiabetesPedigreeFunction: To express the Diabetes percentage
+- Age: To express the age
+- Outcome: To express the final result 1 is Yes and 0 is No
 
 ## Machine Learning Prediction
 ### Install dependencies
