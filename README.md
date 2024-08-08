@@ -18,9 +18,24 @@ The Pima Indian Diabetes data set consists of:
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Machine Learning Prediction](#machine-learning-prediction)
+  - [Install dependencies](#install-dependencies)
+  - [Data Collection and processing](#data-collection-and-processing)
+  - [Data standardization](#data-standardization)
 
 ## Project Overview
 
 ## Dataset
 
 ## Machine Learning Prediction
+### Install dependencies
+Set up a basic environment for building a machine-learning model, specifically using Support Vector Machines (SVMs).
+
+### Data Collection and processing
+- Load and explore a diabetes dataset,
+- Separate it into features and labels
+- Print out the column names for further use.
+It provides a foundation for further data analysis and model development, specifically for a classification task predicting whether a person is diabetic or not based on the provided features.
+
+### Data standardization
+- Standardize the feature values in the dataset, meaning you scale them to have a mean of 0 and a standard deviation of 1. This is an important preprocessing step in machine learning, particularly for algorithms like Support Vector Machines (SVMs), which are sensitive to the scale of input data.
+- Standardized data is then re-assigned to the feature matrix X, ready for model training.
