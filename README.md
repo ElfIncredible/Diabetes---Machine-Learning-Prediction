@@ -1,4 +1,4 @@
-# Diabetes---Machine-Learning-Prediction
+# Diabetes - Machine Learning Prediction
 
 The objective of the dataset:
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
@@ -13,3 +13,14 @@ The Pima Indian Diabetes data set consists of:
 - DiabetesPedigreeFunction: Diabetes pedigree function
 - Age: Age (years)
 - Outcome: Class variable (0 or 1) 268 of 768 are 1, the others are 0
+
+## table of Contents
+- [Project Overview](#project-overview)
+- [Dataset](#dataset)
+- [Machine Learning Prediction](#machine-learning-prediction)
+
+## Project Overview
+
+## Dataset
+
+## Machine Learning Prediction
