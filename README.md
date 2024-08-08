@@ -15,7 +15,7 @@ Develop and deploy a machine learning model to predict whether an individual is 
   - [Saving the trained model](#saving-the-trained-model)
 
 ## Project Overview
-This project develops a machine learning system to predict diabetes status based on health metrics. The goals and objectives are:
+This project develops a machine learning system to predict diabetes status based on health metrics. :
 
 **Goals:**
 - **Accurate Prediction:** Create a model that accurately predicts whether an individual is diabetic or non-diabetic based on provided health metrics.
@@ -26,15 +26,15 @@ This project develops a machine learning system to predict diabetes status based
 This [dataset](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset) is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 
 Information about dataset attributes:
-- Pregnancies: To express the Number of pregnancies
-- Glucose: To express the Glucose level in blood
-- BloodPressure: To express the Blood pressure measurement
-- SkinThickness: To express the thickness of the skin
-- Insulin: To express the Insulin level in blood
-- BMI: To express the Body mass index
-- DiabetesPedigreeFunction: To express the Diabetes percentage
-- Age: To express the age
-- Outcome: To express the final result 1 is Yes and 0 is No
+- **Pregnancies:** To express the Number of pregnancies
+- **Glucose:** To express the Glucose level in blood
+- **BloodPressure:** To express the Blood pressure measurement
+- **SkinThickness:** To express the thickness of the skin
+- **Insulin:** To express the Insulin level in blood
+- **BMI:** To express the Body mass index
+- **DiabetesPedigreeFunction:** To express the Diabetes percentage
+- **Age:** To express the age
+- **Outcome:** To express the final result 1 is Yes and 0 is No
 
 ## Machine Learning Prediction
 ### Install dependencies
