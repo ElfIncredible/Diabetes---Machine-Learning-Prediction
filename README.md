@@ -65,3 +65,7 @@ It provides a foundation for further data analysis and model development, specif
 This could be part of a diagnostic tool in a healthcare application.
 
 ### Saving the trained model
+- Save a trained machine learning model and its associated data scaler to files using pickle
+- Load them back for future use.
+- Standardize new input data using the saved scaler and make predictions using the saved model, providing a reusable approach to deploying machine learning models.
+- The final output is a prediction of whether a person with given health metrics is diabetic or not.
